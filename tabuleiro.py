@@ -43,7 +43,7 @@ class Tabuleiro:
     def iniciar(self, resultado = None):
 
         jogadores = 4
-        ativo = True
+        ativo = None
         for rodada in range(0, 999):
             if ativo == None:
                 break
